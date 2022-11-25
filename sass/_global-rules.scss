@@ -1,0 +1,64 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --main-padding-top: 50px;
+    --main-padding-bottom: 50px;
+    --transparent-color: #ea74b4;
+    --main-transition:0.3s;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Tajawal", sans-serif;
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+}
+a{
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width:576px) {
+    .container {
+        width: 100%;
+}
+}
+/* Midium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.main-title {
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+    p{
+        max-width: 350px;
+        margin:0 auto;
+    }
+}
